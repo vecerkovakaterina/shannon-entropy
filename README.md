@@ -22,7 +22,7 @@ Here's how to interpret the values:
 
 The entropy values typically range from 0 to a maximum value, with higher values indicating more diversity and lower values indicating more conservation. It's essential to analyze the entropy values in the context of your specific biological problem and domain knowledge.
 
-## Example Interpretation
+#### Example Interpretation
 
 For instance, if you calculate the Shannon entropy for a protein alignment and find that a certain position has an entropy value of 0.2, this suggests that this position is relatively conserved, as there is limited amino acid diversity at that site. On the other hand, if another position has an entropy value of 1.0, it indicates high variability, implying that this position is not conserved and may not have a critical functional role.
 
