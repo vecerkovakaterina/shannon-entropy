@@ -8,7 +8,7 @@
 -   [Usage](#usage)
 -   [Output](#output)
 
-## Introduction {#introduction}
+## Introduction
 
 This Python script calculates Shannon entropy for a given multiple sequence alignment (MSA). Shannon entropy is a measure of the diversity or information content at each position in the alignment. This tool can be useful for analyzing the conservation or variability of positions in biological sequences, such as DNA or protein alignments.
 
@@ -28,13 +28,13 @@ For instance, if you calculate the Shannon entropy for a protein alignment and f
 
 Remember that the interpretation of entropy values should always be done with consideration of the specific biological context and the goals of your analysis.
 
-## Features {#features}
+## Features
 
 -   Calculate Shannon entropy for each position in an MSA.
 -   Generate an IGV track for graphical representation of entropy profiles.
 -   Easily customizable for different input formats and options.
 
-## Requirements {#requirements}
+## Requirements
 
 -   Python 3.x
 -   BioPython
@@ -47,7 +47,7 @@ You can install the required libraries using `conda`:
 conda create --name <env> --file requirements.txt
 ```
 
-## Usage {#usage}
+## Usage
 
 To calculate Shannon entropy, use this command:
 
